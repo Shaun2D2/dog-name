@@ -5,6 +5,6 @@ import male from './config/male.json';
 
 export const fetchName = () => sample([ ...female.names, ...males.names ])
 
-export const fetchFemaleName = () => sample(female.names);
+export const fetchFemaleName = () => sample(male.names);
 
 export const fetchMaleName = () => sample(males.names);
